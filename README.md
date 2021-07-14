@@ -31,6 +31,9 @@
   ## Usage
 
   In order to use the README generator, run Node index.js from the project directory in the command line. Answer the prompts and then look to the directory to view the newly created README.
+  
+  ![image](https://user-images.githubusercontent.com/78565748/125549148-f7509070-090b-4752-9561-77c1a4b7f3b7.png)
+
 
   ---
   
