@@ -1,8 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const generateMarkdown = require('./generateMarkdown');
+const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
-const emailVal = require('email-validator');
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -42,7 +42,6 @@ const questions = [
         choices:[
             'MIT License',
             'GNU GPLv3',
-            'Apache License'
         ]
     },
     {
